@@ -3,7 +3,7 @@
 <table>
   <tr>
     <td width="40%">
-      <img src="images/logos/aethercloud.png" alt="AetherCloud Logo" width="100%" style="border-radius: 15px; border: 3px solid #4f46e5; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+      <img src="images/Aethercloud-readmeimg.png" alt="AetherCloud Logo" width="100%" style="border-radius: 15px; border: 3px solid #4f46e5; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
     </td>
     <td width="60%">
       Welcome to <strong>AetherCloud</strong> — a sleek, fully responsive cloud hosting landing page thoughtfully crafted using <strong>HTML5</strong> and <strong>CSS3</strong>. This project demonstrates my front-end development expertise by delivering a visually appealing, user-friendly experience that showcases modern SaaS-style design principles and cloud infrastructure presentation.
