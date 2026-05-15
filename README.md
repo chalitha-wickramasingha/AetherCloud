@@ -36,7 +36,7 @@
 
 ## 🌐 Live Demo
 
-👉 _Coming Soon (Deploy using GitHub Pages)_
+👉 [Visit AetherCloud Website](https://chalitha-wickramasingha.github.io/AetherCloud/)
 
 > Hosted with GitHub Pages — lightweight, responsive, and production-style UI simulation.
 
