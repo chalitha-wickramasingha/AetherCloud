@@ -89,6 +89,7 @@ img {
 .cloud {
   background: linear-gradient(90deg, #247cff, #7b42ff);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -123,6 +124,7 @@ img {
   background: transparent;
   border: none;
   box-shadow: none;
+  -webkit-backdrop-filter: none;
   backdrop-filter: none;
   padding: 0;
 }
@@ -160,6 +162,7 @@ img {
     rgba(236, 72, 194, 0.24)
   );
 
+  -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
 
   box-shadow:
@@ -168,6 +171,8 @@ img {
 
   transform: translateY(-1px) scale(1.03);
   letter-spacing: 0.5px;
+  background-size: 200%;
+  animation: navGlow 3s linear infinite;
 }
 
 /* Active Link */
@@ -184,11 +189,6 @@ img {
   box-shadow:
     0 4px 14px rgba(36, 124, 255, 0.15),
     inset 0 0 0 1px rgba(255, 255, 255, 0.06);
-}
-
-.navbar nav a:hover {
-  background-size: 200%;
-  animation: navGlow 3s linear infinite;
 }
 
 @keyframes navGlow {
@@ -220,10 +220,6 @@ img {
 
   .tagline {
     font-size: 0.62rem;
-    letter-spacing: 5px;
-    margin-top: 6px;
-    color: #5a6480;
-    font-weight: 700;
     transition: all 0.4s ease;
   }
 
